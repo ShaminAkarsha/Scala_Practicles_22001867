@@ -1,0 +1,4 @@
+[debug] [scala_basics-build] Classpath dependencies List()
+[debug] [scala_basics-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'scala_basics-build' to 'E:\Scala\scala_basics\project\.bloop\scala_basics-build.json'
+[success] Generated .bloop\scala_basics-build.json
