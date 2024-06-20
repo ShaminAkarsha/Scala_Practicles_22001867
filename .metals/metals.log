@@ -4495,3 +4495,138 @@ WARNING: Unmatched cancel notification for request id 10605
 2024.06.15 18:50:35 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 01\q5.scala. Using presentation compiler with project's scala-library version: 3.3.3
 2024.06.15 18:50:35 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 01\q5.scala. Using presentation compiler with project's scala-library version: 3.3.3
 2024.06.15 18:50:36 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 01\q5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jun 15, 2024 6:53:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.06.15 18:58:14 INFO  Shutting down server
+2024.06.15 18:58:14 INFO  shutting down Metals
+2024.06.15 18:58:14 INFO  Exiting server
+2024.06.18 08:50:00 INFO  Started: Metals version 1.3.1 in folders 'E:\Scala\scala_basics' for client Visual Studio Code 1.88.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@c4e1a1d]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@17e7eda7]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@c4e1a1d]
+2024.06.18 08:50:02 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.18 08:50:04 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 01\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 08:50:04 INFO  Attempting to connect to the build server...
+2024.06.18 08:50:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.18 08:50:38 ERROR Timeout waiting for 'build/initialize' response
+2024.06.18 08:50:38 WARN  Retrying connection to the build server Bloop
+2024.06.18 08:50:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.18 08:50:38 INFO  Attempting to connect to the build server...
+2024.06.18 08:50:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.18 08:50:58 ERROR Timeout waiting for 'build/initialize' response
+2024.06.18 08:50:58 WARN  Retrying connection to the build server Bloop
+2024.06.18 08:50:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.18 08:51:18 ERROR Timeout waiting for 'build/initialize' response
+2024.06.18 08:51:18 WARN  Retrying connection to the build server Bloop
+2024.06.18 08:51:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.18 08:51:38 ERROR Timeout waiting for 'build/initialize' response
+2024.06.18 08:51:38 WARN  Retrying connection to the build server Bloop
+2024.06.18 08:51:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.18 08:51:58 ERROR Timeout waiting for 'build/initialize' response
+2024.06.18 08:51:58 WARN  Retrying connection to the build server Bloop
+2024.06.18 08:51:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.18 08:52:18 ERROR Timeout waiting for 'build/initialize' response
+2024.06.18 08:52:18 WARN  Retrying connection to the build server Bloop
+2024.06.18 08:52:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.18 08:52:24 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 01\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 08:52:38 ERROR Timeout waiting for 'build/initialize' response
+2024.06.18 08:52:38 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:732)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:612)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.06.18 08:52:38 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 01\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 08:52:39 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 01\q5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 09:14:44 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 01\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 09:14:44 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 01\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 09:14:48 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 01\q5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 09:18:36 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 01\q5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 09:18:36 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 01\q5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 09:18:36 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 01\q5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 09:18:42 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 01\q5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 09:18:42 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 01\q5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 09:21:14 WARN  no build target for: E:\Scala\scala_basics\src\main\scala\Practicle 01\q5.scala
+2024.06.18 09:21:14 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 01\q5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 09:21:14 INFO  Shutting down server
+2024.06.18 09:21:14 INFO  shutting down Metals
+2024.06.18 09:21:14 INFO  Exiting server
+2024.06.18 11:21:59 INFO  Started: Metals version 1.3.1 in folders 'E:\Scala\scala_basics' for client Visual Studio Code 1.88.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@42eb1230]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@752b50ba]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@42eb1230]
+2024.06.18 11:22:01 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.18 11:22:03 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 11:22:03 INFO  Attempting to connect to the build server...
+2024.06.18 11:22:11 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 01\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 11:22:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.18 11:22:16 INFO  Attempting to connect to the build server...
+2024.06.18 11:22:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.18 11:22:16 INFO  time: Connected to build server in 14s
+2024.06.18 11:22:16 INFO  Connected to Build server: Bloop v1.5.17
+2024.06.18 11:22:17 INFO  time: Imported build in 0.34s
+2024.06.18 11:22:19 INFO  Shutting down server
+2024.06.18 11:22:19 INFO  shutting down Metals
+2024.06.18 11:22:19 INFO  Shut down connection with build server.
+2024.06.18 11:22:19 INFO  Shut down connection with build server.
+2024.06.18 11:22:19 INFO  Exiting server
+2024.06.20 20:34:05 INFO  Started: Metals version 1.3.1 in folders 'E:\Scala\scala_basics' for client Visual Studio Code 1.88.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@5cb05b00]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@46181494]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@5cb05b00]
+2024.06.20 20:34:06 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.20 20:34:08 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 01\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 20:34:08 INFO  Attempting to connect to the build server...
+2024.06.20 20:34:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.20 20:34:22 INFO  Attempting to connect to the build server...
+2024.06.20 20:34:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.20 20:34:22 INFO  time: Connected to build server in 14s
+2024.06.20 20:34:22 INFO  Connected to Build server: Bloop v1.5.17
+2024.06.20 20:34:23 INFO  time: Imported build in 0.36s
+2024.06.20 20:35:05 INFO  time: indexed workspace in 41s
+2024.06.20 20:47:11 INFO  compiling scala_basics (6 scala sources)
+2024.06.20 20:47:17 INFO  time: compiled scala_basics in 6s
+2024.06.20 20:47:17 INFO  compiling scala_basics (6 scala sources)
+2024.06.20 20:47:17 INFO  time: compiled scala_basics in 0.42s
+Jun 20, 2024 8:47:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+Jun 20, 2024 10:09:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+Jun 20, 2024 10:09:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 58
+Jun 20, 2024 10:09:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+2024.06.20 22:11:06 INFO  compiling scala_basics (6 scala sources)
+2024.06.20 22:11:06 INFO  time: compiled scala_basics in 0.44s
+2024.06.20 22:11:06 INFO  compiling scala_basics (6 scala sources)
+2024.06.20 22:11:06 INFO  time: compiled scala_basics in 0.17s
+2024.06.20 22:11:12 WARN  Using indexes to guess the definition of convertToFarenhite
+2024.06.20 22:11:14 INFO  compiling scala_basics (6 scala sources)
+2024.06.20 22:11:14 INFO  time: compiled scala_basics in 0.2s
+Jun 20, 2024 10:11:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 269
+2024.06.20 22:11:26 INFO  compiling scala_basics (6 scala sources)
+2024.06.20 22:11:26 INFO  time: compiled scala_basics in 0.17s
+2024.06.20 22:11:38 INFO  compiling scala_basics (6 scala sources)
+2024.06.20 22:11:38 INFO  time: compiled scala_basics in 0.16s
+2024.06.20 22:11:51 INFO  compiling scala_basics (6 scala sources)
+2024.06.20 22:11:51 INFO  time: compiled scala_basics in 0.19s
+2024.06.20 22:12:01 INFO  compiling scala_basics (6 scala sources)
+2024.06.20 22:12:01 INFO  time: compiled scala_basics in 0.15s
+2024.06.20 22:12:17 INFO  compiling scala_basics (6 scala sources)
+2024.06.20 22:12:22 INFO  time: compiled scala_basics in 4.8s
+Jun 20, 2024 10:12:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 524
+Jun 20, 2024 10:12:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

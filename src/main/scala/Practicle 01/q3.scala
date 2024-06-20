@@ -5,10 +5,13 @@ with radius 5?
 */
 
 object q3 extends App {
+
+    def volumeOfSphere(r: Double): Double = {
+    val PI = 3.14
+    (4.0/3)*PI*r*r*r
+    }
+
     println(volumeOfSphere(5))
 }
 
-def volumeOfSphere(r: Double): Double = {
-    val PI = 3.14
-    (4.0/3)*PI*r*r*r
-}
+

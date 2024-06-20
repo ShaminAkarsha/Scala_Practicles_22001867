@@ -4,8 +4,10 @@ The temperature is 35C; convert this temperature into Fahrenheit.
 */
 
 object q2 extends App {
-    println(convertToFarenhite(35));
+    
+    def convertToFarenhite(c: Double): Double = 
+    (c * 1.8)+ 32
+
+    println(convertToFarenhite(35)); 
 }
 
-def convertToFarenhite(c: Double): Double = 
-    (c * 1.8)+ 32

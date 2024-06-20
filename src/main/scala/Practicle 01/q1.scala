@@ -4,10 +4,10 @@ radius 5?
 */
 
 object q1 extends App {
+    def diskArea(r: Double): Double = {
+    val PI = 3.14
+    PI * r * r 
+    }
     println(diskArea(5))
 }
 
-def diskArea(r: Double): Double = {
-    val PI = 3.14
-    PI * r * r 
-}
