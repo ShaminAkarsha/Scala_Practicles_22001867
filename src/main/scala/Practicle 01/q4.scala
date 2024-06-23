@@ -5,7 +5,7 @@ cents for each additional copy. What is the total wholesale cost for 60
 copies?
 */
 
-object q4 extends App {
+object q14 extends App {
     val cost = totalCost(60, 24.95, 40)
     println(cost);
 

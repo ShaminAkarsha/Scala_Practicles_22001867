@@ -4,7 +4,7 @@ volume of a sphere
 with radius 5? 
 */
 
-object q3 extends App {
+object q13 extends App {
 
     def volumeOfSphere(r: Double): Double = {
     val PI = 3.14

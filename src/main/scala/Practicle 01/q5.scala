@@ -4,7 +4,7 @@ min per km) and 2 km at easy pace again to reach home. What is the
 total running time? 
 */
 
-object q5 extends App {
+object q15 extends App {
     val runTime = totalTime()
     println("Total run Time is " + runTime + " Mins.")
 
