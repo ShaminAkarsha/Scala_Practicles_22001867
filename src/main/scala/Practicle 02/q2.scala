@@ -13,13 +13,33 @@ e) println (c=++c*a++);
  */
 
 object q22 extends App {
-    val a = 2
-    val b = 3
-    val c = 4
-    val d = 5
-
-    val k = 4.3f
+    var a = 2
+    var b = 3
+    var c = 4
+    var d = 5
+    var g = 0 // assumption since there are no variable named g
+    var k = 4.3f
 
     // Evaluation
+    b-=1
+    val exprA = b*a+c*d
+    d-=1
+    val exprB = a
+    a+=1
+    val exprC = -2 * (g-k) + c 
+    val exprD = c
+    c+=1
+    c+=1
+    val exprE = c*a
+    a+=1
+
+    println( s"--b * a + c *d-- = $exprA ")
+    println(s"++a = $exprB");
+    println (s"-2 * ( g - k ) +c = $exprC")
+    println (s"c++ = $exprD")
+    println (s"++c*a++ = $exprE")
+    
+
+
 
 }

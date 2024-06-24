@@ -1,26 +1,24 @@
 object q21 extends App {
     // Declaration
-    val k = 2
-    val i = 2
-    val j = 2
-    val m = 5
-    val n = 5
-    val f = 12.0f
-    val g = 4.0f
-    val c = 'X'
+    var k, i, j = 2
+    var m, n = 5
+    var f = 12.0f
+    var g = 4.0f
+    var c = 'X'
 
     // Evaluate 
-    print("a) ")
-    println(k + 12 * m)
-    print("b) ")
-    println(m/j)
-    print("c) ")
-    println(n % j)
-    print("d) ")
-    println(m/j*j)
-    print("e) ")
-    println(f + 10*5 + g)
-    print("f) ")
-    //println((++i) * n)
+    val exprA = k + 12 * m
+    val exprB = m/ j
+    val exprC = n % j
+    val exprD = m/j*j
+    val exprE = f + 10*5 + g
+    i+=1
+    val exprF = i*n
+    println(s"a) k + 12 * m = $exprA")
+    println(s"b) m / j = $exprB")
+    println(s"c) n % j = $exprC")
+    println(s"d) m/j*j = $exprD")
+    println(s"e) f + 10*5 + g = $exprE")
+    println(s"f) ++i*n = $exprF")
 
 }
