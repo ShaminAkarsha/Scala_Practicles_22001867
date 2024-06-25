@@ -25,9 +25,9 @@ object q24 extends App {
     def profit(ticketPrice: Int) = 
         attendance(ticketPrice)*ticketPrice - performanceCost(ticketPrice)
 
-    println("When a ticket 15 profit: " + profit(15))
-    println("When a ticket 10 profit: " + profit(10))
     println("When a ticket 5 profit: " + profit(5))
+    println("When a ticket 10 profit: " + profit(10))
+    println("When a ticket 15 profit: " + profit(15))
     println("When a ticket 20 profit: " + profit(20))
     println("When a ticket 25 profit: " + profit(25))
     println("When a ticket 30 profit: " + profit(30))

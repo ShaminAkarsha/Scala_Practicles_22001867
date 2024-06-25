@@ -20,9 +20,12 @@ object q23 extends App {
     
     def taxAmount(salary: Double): Double = 
         salary*tax_rate
+    
+    def salary(wHour: Int, otHour: Int): Double = 
+        normalAmount(wHour) + otAmount(otHour)
 
     def takeHomeSal(wHour: Int, otHour: Int): Double = 
-        normalAmount(wHour) + otAmount(otHour) - taxAmount(normalAmount(wHour)+otAmount(otHour))
+        salary(wHour, otHour) - taxAmount(salary(wHour, otHour))
 
     println("Take home salary for 40hours and 30h OT: " + takeHomeSal(40, 30))
 
