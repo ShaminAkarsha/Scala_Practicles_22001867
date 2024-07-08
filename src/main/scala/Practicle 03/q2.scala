@@ -1,4 +1,5 @@
-/*Write a function in Scala that takes a list of strings as input and returns a new list
+/*
+Write a function in Scala that takes a list of strings as input and returns a new list
 containing only the strings that have a length greater than 5 
 */
 // In scala to make list List(type), should be same type, act as an linked list

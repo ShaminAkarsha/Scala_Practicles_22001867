@@ -14709,3 +14709,444 @@ WARNING: Unmatched cancel notification for request id 7811
 2024.06.30 18:20:12 INFO  Shut down connection with build server.
 2024.06.30 18:20:12 INFO  Shut down connection with build server.
 2024.06.30 18:20:12 INFO  Exiting server
+2024.06.30 18:28:03 INFO  Started: Metals version 1.3.2 in folders 'E:\Scala\scala_basics' for client Visual Studio Code 1.88.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@514bdc6b]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@16072578]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@514bdc6b]
+2024.06.30 18:28:04 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.30 18:28:06 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 03\q5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.30 18:28:07 INFO  Attempting to connect to the build server...
+2024.06.30 18:28:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.30 18:28:07 INFO  Attempting to connect to the build server...
+2024.06.30 18:28:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.30 18:28:07 INFO  time: Connected to build server in 0.83s
+2024.06.30 18:28:07 INFO  Connected to Build server: Bloop v1.5.18
+2024.06.30 18:28:08 INFO  time: Imported build in 0.19s
+2024.06.30 18:28:16 INFO  time: indexed workspace in 7.02s
+2024.06.30 18:28:16 INFO  compiling scala_basics (17 scala sources)
+2024.06.30 18:28:21 INFO  time: compiled scala_basics in 5.29s
+2024.06.30 18:28:21 INFO  compiling scala_basics (17 scala sources)
+2024.06.30 18:28:27 INFO  time: compiled scala_basics in 4.89s
+2024.06.30 18:29:27 INFO  Shutting down server
+2024.06.30 18:29:27 INFO  shutting down Metals
+2024.06.30 18:29:27 INFO  Shut down connection with build server.
+2024.06.30 18:29:27 INFO  Shut down connection with build server.
+2024.06.30 18:29:27 INFO  Exiting server
+2024.07.01 21:39:11 INFO  Started: Metals version 1.3.2 in folders 'E:\Scala\scala_basics' for client Visual Studio Code 1.88.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@240dce9e]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@c564222]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@240dce9e]
+2024.07.01 21:39:12 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.01 21:39:14 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 03\q5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.01 21:39:14 INFO  Attempting to connect to the build server...
+2024.07.01 21:39:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.01 21:39:31 INFO  Attempting to connect to the build server...
+2024.07.01 21:39:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.01 21:39:31 INFO  time: Connected to build server in 17s
+2024.07.01 21:39:31 INFO  Connected to Build server: Bloop v1.5.18
+2024.07.01 21:39:32 INFO  time: Imported build in 0.33s
+2024.07.01 21:39:50 INFO  time: indexed workspace in 18s
+2024.07.01 21:39:51 INFO  compiling scala_basics (17 scala sources)
+2024.07.01 21:39:59 INFO  compiling scala_basics (17 scala sources)
+2024.07.01 21:39:59 INFO  time: compiled scala_basics in 0.45s
+2024.07.01 21:40:03 INFO  compiling scala_basics (17 scala sources)
+Jul 01, 2024 9:40:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.07.01 21:40:05 INFO  time: compiled scala_basics in 1.94s
+Jul 01, 2024 9:40:34 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing E:\Scala\scala_basics\src\main\scala\Practicle 03\q5.scala
+java.nio.file.NoSuchFileException: E:\Scala\scala_basics\src\main\scala\Practicle 03\q5.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:43)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:21)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:410)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:279)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:290)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:205)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:178)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:159)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:159)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:279)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:295)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:274)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:109)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:27)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:370)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:156)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:142)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:245)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Jul 01, 2024 9:40:34 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing E:\Scala\scala_basics\src\main\scala\Practicle 03\q5.scala
+java.nio.file.NoSuchFileException: E:\Scala\scala_basics\src\main\scala\Practicle 03\q5.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:43)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:21)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:410)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:279)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:290)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:301)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:205)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:178)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:159)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:159)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:279)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:295)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:274)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:109)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:27)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:370)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:156)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:142)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:245)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Jul 01, 2024 9:41:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 88
+Jul 01, 2024 9:41:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 101
+2024.07.01 21:41:59 INFO  compiling scala_basics (17 scala sources)
+2024.07.01 21:42:01 INFO  time: compiled scala_basics in 2.31s
+2024.07.01 21:42:57 INFO  Shutting down server
+2024.07.01 21:42:57 INFO  shutting down Metals
+2024.07.01 21:42:57 INFO  Shut down connection with build server.
+2024.07.01 21:42:57 INFO  Shut down connection with build server.
+2024.07.01 21:42:57 INFO  Exiting server
+2024.07.02 10:14:15 INFO  Started: Metals version 1.3.2 in folders 'E:\Scala\scala_basics' for client Visual Studio Code 1.88.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@259be612]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@6737a6c6]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@259be612]
+2024.07.02 10:14:16 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.02 10:14:18 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 03\q4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.02 10:14:18 INFO  Attempting to connect to the build server...
+2024.07.02 10:14:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.02 10:14:31 INFO  Attempting to connect to the build server...
+2024.07.02 10:14:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.02 10:14:31 INFO  time: Connected to build server in 13s
+2024.07.02 10:14:31 INFO  Connected to Build server: Bloop v1.5.18
+2024.07.02 10:14:32 INFO  time: Imported build in 0.34s
+2024.07.02 10:14:47 INFO  time: indexed workspace in 15s
+2024.07.02 10:14:48 INFO  compiling scala_basics (17 scala sources)
+2024.07.02 10:14:55 INFO  time: compiled scala_basics in 6.79s
+2024.07.02 10:14:55 INFO  compiling scala_basics (17 scala sources)
+2024.07.02 10:14:58 INFO  time: compiled scala_basics in 2.54s
+2024.07.02 10:14:58 INFO  compiling scala_basics (17 scala sources)
+2024.07.02 10:15:00 INFO  time: compiled scala_basics in 1.5s
+Jul 02, 2024 10:21:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 125
+2024.07.02 10:57:55 INFO  Shutting down server
+2024.07.02 10:57:55 INFO  shutting down Metals
+2024.07.02 10:57:55 INFO  Shut down connection with build server.
+2024.07.02 10:57:55 INFO  Shut down connection with build server.
+2024.07.02 10:57:55 INFO  Exiting server
+2024.07.08 00:12:49 INFO  Started: Metals version 1.3.2 in folders 'E:\Scala\scala_basics' for client Visual Studio Code 1.88.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@365dd1f9]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@493cb0c9]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@365dd1f9]
+2024.07.08 00:12:50 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.08 00:12:51 INFO  Attempting to connect to the build server...
+2024.07.08 00:13:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.08 00:13:04 INFO  Attempting to connect to the build server...
+2024.07.08 00:13:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.08 00:13:04 INFO  time: Connected to build server in 12s
+2024.07.08 00:13:04 INFO  Connected to Build server: Bloop v1.5.18
+2024.07.08 00:13:05 INFO  time: Imported build in 0.36s
+2024.07.08 00:13:21 INFO  time: indexed workspace in 16s
+2024.07.08 00:14:37 INFO  Shutting down server
+2024.07.08 00:14:37 INFO  shutting down Metals
+2024.07.08 00:14:37 INFO  Shut down connection with build server.
+2024.07.08 00:14:37 INFO  Shut down connection with build server.
+2024.07.08 00:14:37 INFO  Exiting server
+2024.07.08 07:59:34 INFO  Started: Metals version 1.3.2 in folders 'E:\Scala\scala_basics' for client Visual Studio Code 1.88.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@1f77ec18]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@f181189]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@1f77ec18]
+2024.07.08 07:59:35 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.08 07:59:36 INFO  Attempting to connect to the build server...
+2024.07.08 07:59:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.08 07:59:48 INFO  Attempting to connect to the build server...
+2024.07.08 07:59:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.08 07:59:48 INFO  time: Connected to build server in 12s
+2024.07.08 07:59:48 INFO  Connected to Build server: Bloop v1.5.18
+2024.07.08 07:59:49 INFO  time: Imported build in 0.34s
+2024.07.08 08:00:05 INFO  time: indexed workspace in 15s
+Jul 08, 2024 8:13:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Jul 08, 2024 8:13:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2024.07.08 08:13:30 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:13:37 INFO  time: compiled scala_basics in 7.01s
+2024.07.08 08:13:37 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:13:40 INFO  time: compiled scala_basics in 2.59s
+2024.07.08 08:13:42 INFO  file:///E:/Scala/scala_basics/src/main/scala/Practicle%2004/q1.scala:1:1: stale bloop information:
+Found names but no class, trait or object is defined in the compilation unit.
+The incremental compiler cannot record the dependency information in such case.
+Some errors like unused import referring to a non-existent class might not be reported.
+    
+package `Practicle 04`
+^
+Jul 08, 2024 8:13:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 71
+2024.07.08 08:14:08 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:14:11 INFO  time: compiled scala_basics in 2.99s
+2024.07.08 08:15:57 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:15:57 INFO  time: compiled scala_basics in 0.34s
+Jul 08, 2024 8:16:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 182
+Jul 08, 2024 8:16:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 183
+Jul 08, 2024 8:16:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 184
+Jul 08, 2024 8:16:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 191
+Jul 08, 2024 8:16:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 195
+Jul 08, 2024 8:16:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 193
+Jul 08, 2024 8:16:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 194
+something's wrong: no file:///E:/Scala/scala_basics/src/main/scala/Practicle%2004/q1.scala in Array[<error>]RangePosition(file:///E:/Scala/scala_basics/src/main/scala/Practicle%2004/q1.scala, 44, 44, 59)
+2024.07.08 08:16:34 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:16:37 INFO  time: compiled scala_basics in 2.45s
+2024.07.08 08:18:37 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:18:37 INFO  time: compiled scala_basics in 0.4s
+Jul 08, 2024 8:18:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 484
+2024.07.08 08:18:46 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:18:46 INFO  time: compiled scala_basics in 0.25s
+2024.07.08 08:18:49 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:18:49 INFO  time: compiled scala_basics in 0.23s
+2024.07.08 08:19:06 ERROR Failed to tokenize input for semantic tokens for E:\Scala\scala_basics\src\main\scala\Practicle 04\q1.scala
+scala.meta.tokenizers.TokenizeException: <input>:3: error: unclosed string literal
+    val itemQuantity = Array(")
+                             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:509)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:361)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.08 08:21:11 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:21:14 INFO  time: compiled scala_basics in 2.48s
+2024.07.08 08:21:26 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:21:29 INFO  time: compiled scala_basics in 2.41s
+something's wrong: no file:///E:/Scala/scala_basics/src/main/scala/Practicle%2004/q1.scala in Array[<error>]RangePosition(file:///E:/Scala/scala_basics/src/main/scala/Practicle%2004/q1.scala, 169, 169, 184)
+something's wrong: no file:///E:/Scala/scala_basics/src/main/scala/Practicle%2004/q1.scala in Array[<error>]RangePosition(file:///E:/Scala/scala_basics/src/main/scala/Practicle%2004/q1.scala, 169, 169, 177)
+something's wrong: no file:///E:/Scala/scala_basics/src/main/scala/Practicle%2004/q1.scala in Array[<error>]RangePosition(file:///E:/Scala/scala_basics/src/main/scala/Practicle%2004/q1.scala, 198, 198, 213)
+something's wrong: no file:///E:/Scala/scala_basics/src/main/scala/Practicle%2004/q1.scala in Array[<error>]RangePosition(file:///E:/Scala/scala_basics/src/main/scala/Practicle%2004/q1.scala, 198, 198, 206)
+2024.07.08 08:22:25 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:22:25 INFO  time: compiled scala_basics in 0.63s
+2024.07.08 08:22:30 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:22:30 INFO  time: compiled scala_basics in 0.67s
+2024.07.08 08:22:58 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:22:58 INFO  time: compiled scala_basics in 0.15s
+2024.07.08 08:26:21 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:26:23 INFO  time: compiled scala_basics in 2.26s
+Jul 08, 2024 8:27:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1376
+Jul 08, 2024 8:27:49 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 263, count -1, length 274
+Jul 08, 2024 8:27:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1387
+Jul 08, 2024 8:28:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1512
+2024.07.08 08:29:45 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:29:47 INFO  time: compiled scala_basics in 2.15s
+2024.07.08 08:31:29 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:31:32 INFO  time: compiled scala_basics in 2.34s
+Jul 08, 2024 8:31:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1836
+2024.07.08 08:31:38 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:31:38 INFO  time: compiled scala_basics in 0.44s
+2024.07.08 08:31:52 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:31:54 INFO  time: compiled scala_basics in 2.31s
+2024.07.08 08:32:58 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:32:58 INFO  time: compiled scala_basics in 0.48s
+2024.07.08 08:33:15 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:33:15 INFO  time: compiled scala_basics in 0.2s
+2024.07.08 08:34:08 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:34:09 INFO  Shutting down server
+2024.07.08 08:34:09 INFO  shutting down Metals
+2024.07.08 08:34:09 INFO  Shut down connection with build server.
+2024.07.08 08:34:09 INFO  Shut down connection with build server.
+Jul 08, 2024 8:34:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:191)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:160)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.$anonfun$cancel$1(FutureWithTimeout.scala:37)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.cancel(FutureWithTimeout.scala:37)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.utils.RequestRegistry.cancel(RequestRegistry.scala:94)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:450)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:182)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:174)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2024.07.08 08:34:09 INFO  Cancelling compilation on Bloop server
+2024.07.08 08:34:11 INFO  Exiting server
+2024.07.08 08:54:06 INFO  Started: Metals version 1.3.2 in folders 'E:\Scala\scala_basics' for client Visual Studio Code 1.88.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@596020e]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@48847ea9]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@596020e]
+2024.07.08 08:54:09 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.08 08:54:11 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 04\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.08 08:54:11 INFO  Attempting to connect to the build server...
+2024.07.08 08:54:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.08 08:54:25 INFO  Attempting to connect to the build server...
+2024.07.08 08:54:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.08 08:54:25 INFO  time: Connected to build server in 14s
+2024.07.08 08:54:25 INFO  Connected to Build server: Bloop v1.5.18
+2024.07.08 08:54:26 INFO  time: Imported build in 0.37s
+2024.07.08 08:54:40 INFO  time: indexed workspace in 14s
+2024.07.08 08:54:42 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:54:49 INFO  time: compiled scala_basics in 7.56s
+2024.07.08 08:54:49 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 08:54:53 INFO  time: compiled scala_basics in 2.97s
+2024.07.08 09:12:02 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 09:12:04 INFO  time: compiled scala_basics in 2.41s
+2024.07.08 09:15:23 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 09:15:25 INFO  time: compiled scala_basics in 2.22s
+2024.07.08 09:30:07 WARN  Using indexes to guess the definition of Int
+2024.07.08 09:35:37 INFO  compiling scala_basics (18 scala sources)
+2024.07.08 09:35:39 INFO  Shutting down server
+2024.07.08 09:35:39 INFO  shutting down Metals
+2024.07.08 09:35:39 INFO  Shut down connection with build server.
+2024.07.08 09:35:39 INFO  Shut down connection with build server.
+Jul 08, 2024 9:35:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:191)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:160)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.$anonfun$cancel$1(FutureWithTimeout.scala:37)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.cancel(FutureWithTimeout.scala:37)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.utils.RequestRegistry.cancel(RequestRegistry.scala:94)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:450)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:182)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:174)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2024.07.08 09:35:39 INFO  Cancelling compilation on Bloop server
+2024.07.08 09:35:41 INFO  Exiting server
