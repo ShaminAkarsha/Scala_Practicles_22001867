@@ -8,7 +8,8 @@ object q42 extends App{
     print("Input an Int value: ")
     var input = scala.io.StdIn.readInt()
     input match {
-        case input if input <= 0 => println(s"Negative/Zero ${input}")
+        case input if input == 0 => println(s"Zero ${input}")
+        case input if input < 0 => println(s"Negative ${input}")
         case input if input%2 == 0 => println(s"Even number is given ${input}")
         case input if input%2 == 1 =>println(s"Odd number is given ${input}")
     }
