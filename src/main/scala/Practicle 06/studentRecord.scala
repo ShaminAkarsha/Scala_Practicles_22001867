@@ -62,7 +62,7 @@ object studentManage{
         var studentList: List[(String, Int, Double, Char)] = List()
         while(input){
             studentList = studentList :+  getStudentInfo()
-            if(readLine("Continue (1)? ").toInt == -1){
+            if(readLine("Continue (1)? ") != "1"){
                 input = false
             }
         }
