@@ -3,11 +3,16 @@ function to filter out the prime numbers from the list. The function should retu
 containing only the prime numbers
  */
 object q73 extends App{
+    
+    val isPrime = (num: Int) => {
+        if(num <= 1)false
+        else !(2 until num).exists(i => num % i == 0)
+    }
 
     val filterPrime = (numSet: List[Int]) => {
         var primList: List[Int] = List()
         numSet.foreach(i => 
-            if(i%2 == 0){
+            if(isPrime(i)){
                 primList = primList :+ i
             })
         primList

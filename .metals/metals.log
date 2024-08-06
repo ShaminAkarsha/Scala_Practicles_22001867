@@ -20292,3 +20292,257 @@ Caused by: java.nio.channels.ClosedChannelException
 
 2024.08.03 15:40:43 INFO  Cancelling compilation on Bloop server
 2024.08.03 15:40:43 INFO  Exiting server
+2024.08.05 20:22:03 INFO  Started: Metals version 1.3.5 in folders 'E:\Scala\scala_basics' for client Visual Studio Code 1.88.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@1bff83f1]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@2b40cdb0]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@1bff83f1]
+2024.08.05 20:22:08 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.05 20:22:09 INFO  Attempting to connect to the build server...
+2024.08.05 20:22:12 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 07\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 20:22:23 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 07\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 20:22:23 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 07\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 20:22:23 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 07\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 20:22:25 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 07\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 20:22:25 WARN  Could not find semantic tokens for: file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q1.scala
+2024.08.05 20:22:25 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 07\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 20:22:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.05 20:22:25 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 07\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 20:22:26 INFO  Attempting to connect to the build server...
+2024.08.05 20:22:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.05 20:22:26 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 07\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.05 20:22:26 INFO  time: Connected to build server in 17s
+2024.08.05 20:22:26 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.05 20:22:27 INFO  time: Imported build in 0.44s
+2024.08.05 20:22:27 INFO  running doctor check
+2024.08.05 20:22:27 INFO  java targets: scala_basics-build, scala_basics, scala_basics-test
+2024.08.05 20:22:27 WARN  Could not find semantic tokens for: file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q1.scala
+Aug 05, 2024 8:22:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+Aug 05, 2024 8:22:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+Aug 05, 2024 8:22:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46
+Aug 05, 2024 8:22:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+Aug 05, 2024 8:22:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 51
+Aug 05, 2024 8:22:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 50
+Aug 05, 2024 8:22:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53
+2024.08.05 20:22:36 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.05 20:22:47 INFO  time: indexed workspace in 20s
+2024.08.05 20:22:48 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:22:54 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:23:00 INFO  Deduplicating compilation of scala_basics from bsp client 'Metals 1.3.5' (since 34.344s)
+2024.08.05 20:23:00 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:23:00 INFO  time: compiled scala_basics in 53ms
+2024.08.05 20:23:02 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:23:09 INFO  time: compiled scala_basics in 7.11s
+2024.08.05 20:23:21 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:23:25 INFO  time: compiled scala_basics in 4.04s
+Aug 05, 2024 8:23:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 310
+Aug 05, 2024 8:23:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 311
+Aug 05, 2024 8:23:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 312
+Aug 05, 2024 8:23:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 313
+something's wrong: no file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q1.scala in List[<error>]RangePosition(file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q1.scala, 306, 306, 320)
+something's wrong: no file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q1.scala in List[<error>]RangePosition(file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q1.scala, 306, 306, 313)
+something's wrong: no file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q1.scala in List[<error>]RangePosition(file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q1.scala, 306, 306, 314)
+something's wrong: no file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q1.scala in List[Int]RangePosition(file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q1.scala, 306, 306, 315)
+2024.08.05 20:23:43 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:23:43 INFO  time: compiled scala_basics in 0.86s
+Aug 05, 2024 8:23:47 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.08.05 20:23:52 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:23:52 INFO  time: compiled scala_basics in 0.23s
+Aug 05, 2024 8:24:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 471
+Aug 05, 2024 8:24:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 470
+Aug 05, 2024 8:24:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 472
+Aug 05, 2024 8:24:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 474
+Aug 05, 2024 8:24:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 507
+2024.08.05 20:27:21 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:27:21 INFO  time: compiled scala_basics in 0.24s
+2024.08.05 20:27:35 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:27:35 INFO  time: compiled scala_basics in 0.18s
+2024.08.05 20:27:55 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:27:59 INFO  time: compiled scala_basics in 3.37s
+Aug 05, 2024 8:28:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 797
+2024.08.05 20:28:45 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:28:48 INFO  time: compiled scala_basics in 3.29s
+2024.08.05 20:29:27 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:29:27 INFO  time: compiled scala_basics in 0.47s
+something's wrong: no file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q1.scala in List[<error>]RangePosition(file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q1.scala, 345, 345, 359)
+something's wrong: no file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q1.scala in List[<error>]RangePosition(file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q1.scala, 345, 345, 352)
+something's wrong: no file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q1.scala in List[<error>]RangePosition(file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q1.scala, 345, 345, 353)
+something's wrong: no file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q1.scala in List[Int]RangePosition(file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q1.scala, 345, 345, 354)
+2024.08.05 20:29:50 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:29:50 INFO  time: compiled scala_basics in 0.55s
+2024.08.05 20:29:54 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:29:54 INFO  time: compiled scala_basics in 0.39s
+2024.08.05 20:30:03 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:30:05 INFO  time: compiled scala_basics in 2.48s
+2024.08.05 20:30:39 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:30:42 INFO  time: compiled scala_basics in 2.76s
+2024.08.05 20:30:50 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:30:53 INFO  time: compiled scala_basics in 3.12s
+2024.08.05 20:31:03 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:31:05 INFO  time: compiled scala_basics in 2.01s
+2024.08.05 20:31:26 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:31:26 INFO  time: compiled scala_basics in 0.18s
+2024.08.05 20:31:33 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:31:36 INFO  time: compiled scala_basics in 3.31s
+2024.08.05 20:31:53 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:31:56 INFO  time: compiled scala_basics in 2.39s
+2024.08.05 20:32:02 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:32:02 INFO  time: compiled scala_basics in 0.32s
+2024.08.05 20:32:10 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:32:13 INFO  time: compiled scala_basics in 2.62s
+2024.08.05 20:32:42 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:32:42 INFO  time: compiled scala_basics in 0.32s
+2024.08.05 20:32:54 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:32:56 INFO  time: compiled scala_basics in 2.03s
+2024.08.05 20:33:00 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:33:03 INFO  time: compiled scala_basics in 2.42s
+2024.08.05 20:33:15 INFO  compiling scala_basics (26 scala sources)
+2024.08.05 20:33:17 INFO  time: compiled scala_basics in 1.91s
+2024.08.05 20:36:33 INFO  compiling scala_basics (27 scala sources)
+2024.08.05 20:36:36 INFO  time: compiled scala_basics in 3.52s
+2024.08.05 20:38:55 INFO  compiling scala_basics (27 scala sources)
+2024.08.05 20:38:57 INFO  time: compiled scala_basics in 1.88s
+2024.08.05 20:41:39 INFO  compiling scala_basics (27 scala sources)
+2024.08.05 20:41:42 INFO  time: compiled scala_basics in 2.59s
+Aug 05, 2024 8:42:51 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 05, 2024 8:42:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Scala\scala_basics\.metals\.reports\metals-full\2024-08-05\r_compiler-error_(scala_basics)_20-42-52-498.md
+Aug 05, 2024 8:42:52 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 05, 2024 8:42:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Scala\scala_basics\.metals\.reports\metals-full\2024-08-05\r_compiler-error_(scala_basics)_20-42-52-609.md
+2024.08.05 20:42:55 WARN  Using indexes to guess the definition of filterEvenNumbers
+Aug 05, 2024 8:43:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2066
+Aug 05, 2024 8:43:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2067
+2024.08.05 20:43:41 INFO  compiling scala_basics (27 scala sources)
+2024.08.05 20:43:41 INFO  time: compiled scala_basics in 0.14s
+2024.08.05 20:43:47 INFO  compiling scala_basics (27 scala sources)
+2024.08.05 20:43:47 INFO  time: compiled scala_basics in 0.35s
+Aug 05, 2024 8:43:50 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 05, 2024 8:43:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Scala\scala_basics\.metals\.reports\metals-full\2024-08-05\r_compiler-error_(scala_basics)_20-43-50-163.md
+Aug 05, 2024 8:43:53 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 05, 2024 8:43:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Scala\scala_basics\.metals\.reports\metals-full\2024-08-05\r_compiler-error_(scala_basics)_20-43-53-839.md
+Aug 05, 2024 8:43:54 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 05, 2024 8:43:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Scala\scala_basics\.metals\.reports\metals-full\2024-08-05\r_compiler-error_(scala_basics)_20-43-54-917.md
+Aug 05, 2024 8:43:55 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 05, 2024 8:43:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Scala\scala_basics\.metals\.reports\metals-full\2024-08-05\r_compiler-error_(scala_basics)_20-43-55-653.md
+Aug 05, 2024 8:43:55 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 05, 2024 8:43:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Scala\scala_basics\.metals\.reports\metals-full\2024-08-05\r_compiler-error_(scala_basics)_20-43-55-892.md
+2024.08.05 20:43:57 INFO  compiling scala_basics (27 scala sources)
+2024.08.05 20:44:00 INFO  time: compiled scala_basics in 3.1s
+2024.08.05 20:44:07 INFO  compiling scala_basics (27 scala sources)
+2024.08.05 20:44:11 INFO  time: compiled scala_basics in 3.2s
+2024.08.05 20:44:30 INFO  compiling scala_basics (27 scala sources)
+2024.08.05 20:44:33 INFO  time: compiled scala_basics in 3.13s
+2024.08.05 20:44:47 INFO  compiling scala_basics (28 scala sources)
+2024.08.05 20:44:50 INFO  time: compiled scala_basics in 3.14s
+2024.08.05 20:44:53 INFO  compiling scala_basics (28 scala sources)
+2024.08.05 20:44:56 INFO  file:///E:/Scala/scala_basics/src/main/scala/Practicle%2007/q3.scala:1:1: stale bloop information:
+Found names but no class, trait or object is defined in the compilation unit.
+The incremental compiler cannot record the dependency information in such case.
+Some errors like unused import referring to a non-existent class might not be reported.
+    
+package `Practicle 07`
+^
+2024.08.05 20:44:56 INFO  time: compiled scala_basics in 2.54s
+2024.08.05 20:45:42 INFO  compiling scala_basics (28 scala sources)
+2024.08.05 20:45:45 INFO  time: compiled scala_basics in 2.99s
+Aug 05, 2024 8:46:04 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 05, 2024 8:46:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Scala\scala_basics\.metals\.reports\metals-full\2024-08-05\r_compiler-error_(scala_basics)_20-46-04-442.md
+Aug 05, 2024 8:46:04 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 05, 2024 8:46:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Scala\scala_basics\.metals\.reports\metals-full\2024-08-05\r_compiler-error_(scala_basics)_20-46-04-549.md
+Aug 05, 2024 8:46:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2372
+Aug 05, 2024 8:46:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Scala\scala_basics\.metals\.reports\metals-full\2024-08-05\r_compiler-error_(scala_basics)_20-46-10-800.md
+2024.08.05 20:46:21 INFO  compiling scala_basics (28 scala sources)
+2024.08.05 20:46:21 INFO  time: compiled scala_basics in 0.19s
+2024.08.05 20:46:26 INFO  compiling scala_basics (28 scala sources)
+2024.08.05 20:46:29 INFO  time: compiled scala_basics in 2.76s
+2024.08.05 20:46:47 INFO  compiling scala_basics (28 scala sources)
+2024.08.05 20:46:49 INFO  time: compiled scala_basics in 1.85s
+2024.08.05 20:46:54 INFO  compiling scala_basics (28 scala sources)
+2024.08.05 20:46:57 INFO  time: compiled scala_basics in 2.6s
+2024.08.05 21:42:17 INFO  compiling scala_basics (28 scala sources)
+2024.08.05 21:42:21 INFO  time: compiled scala_basics in 4.08s
+2024.08.05 21:44:48 INFO  compiling scala_basics (28 scala sources)
+2024.08.05 21:44:48 INFO  time: compiled scala_basics in 0.36s
+2024.08.05 21:44:51 INFO  compiling scala_basics (28 scala sources)
+2024.08.05 21:44:54 INFO  time: compiled scala_basics in 2.73s
+Aug 05, 2024 9:45:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2845
+2024.08.05 21:45:38 INFO  compiling scala_basics (28 scala sources)
+2024.08.05 21:45:38 INFO  time: compiled scala_basics in 0.3s
+Aug 05, 2024 9:45:39 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 05, 2024 9:45:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Scala\scala_basics\.metals\.reports\metals-full\2024-08-05\r_compiler-error_(scala_basics)_21-45-39-285.md
+Aug 05, 2024 9:45:39 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 05, 2024 9:45:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Scala\scala_basics\.metals\.reports\metals-full\2024-08-05\r_compiler-error_(scala_basics)_21-45-39-975.md
+Aug 05, 2024 9:45:40 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.08.05 21:45:45 INFO  compiling scala_basics (28 scala sources)
+2024.08.05 21:45:45 INFO  time: compiled scala_basics in 0.15s
+2024.08.05 21:45:50 INFO  compiling scala_basics (28 scala sources)
+2024.08.05 21:45:50 INFO  time: compiled scala_basics in 0.28s
+2024.08.05 21:45:52 INFO  compiling scala_basics (28 scala sources)
+2024.08.05 21:45:53 INFO  time: compiled scala_basics in 1.79s
+Aug 05, 2024 9:46:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2973
+Aug 05, 2024 9:47:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3040
+2024.08.05 21:47:10 INFO  compiling scala_basics (28 scala sources)
+Aug 05, 2024 9:47:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3060
+Aug 05, 2024 9:47:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3069
+2024.08.05 21:47:13 INFO  time: compiled scala_basics in 2.92s
+2024.08.05 21:47:13 INFO  compiling scala_basics (28 scala sources)
+2024.08.05 21:47:14 INFO  time: compiled scala_basics in 1.28s
+2024.08.05 21:47:24 INFO  compiling scala_basics (28 scala sources)
+2024.08.05 21:47:26 INFO  time: compiled scala_basics in 1.93s
+Aug 05, 2024 10:14:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.08.05 22:57:24 INFO  Shutting down server
+2024.08.05 22:57:24 INFO  shutting down Metals
+2024.08.05 22:57:25 INFO  Shut down connection with build server.
+2024.08.05 22:57:25 INFO  Shut down connection with build server.
+2024.08.05 22:57:26 INFO  Exiting server
