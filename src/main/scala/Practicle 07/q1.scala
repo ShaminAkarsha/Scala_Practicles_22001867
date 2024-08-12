@@ -5,9 +5,9 @@ list containing only the even numbers.
 
 object q71 extends App{
 
-    val filterEvenNumbers = (numSet: List[Int]) => numSet.filter(n => n%2 == 0)
+    val filterEvenNumbers = (numSet: List[Int]) => numSet.filter(n => n%2 != 0)
 
-    val inputList = List(1,2,3,4,5,6,7,8,9,10)
+    val inputList = List(0,1,2,3,4,5,6,7,8,9,10,-1,-2,-3,-4)
     val outPutList = filterEvenNumbers(inputList)
     println(outPutList)
 

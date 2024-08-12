@@ -20546,3 +20546,436 @@ INFO: Unsupported notification method: $/setTrace
 2024.08.05 22:57:25 INFO  Shut down connection with build server.
 2024.08.05 22:57:25 INFO  Shut down connection with build server.
 2024.08.05 22:57:26 INFO  Exiting server
+2024.08.06 07:47:25 INFO  Started: Metals version 1.3.5 in folders 'E:\Scala\scala_basics' for client Visual Studio Code 1.88.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@7a14d3a1]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@327c8710]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@7a14d3a1]
+2024.08.06 07:47:29 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.06 07:47:32 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 07\q3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.06 07:47:32 INFO  Attempting to connect to the build server...
+2024.08.06 07:47:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.06 07:47:45 INFO  Attempting to connect to the build server...
+2024.08.06 07:47:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.06 07:47:45 INFO  time: Connected to build server in 13s
+2024.08.06 07:47:45 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.06 07:47:46 INFO  time: Imported build in 0.43s
+2024.08.06 07:47:46 INFO  running doctor check
+2024.08.06 07:47:46 INFO  java targets: scala_basics-build, scala_basics, scala_basics-test
+2024.08.06 07:47:58 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.06 07:48:10 INFO  time: indexed workspace in 23s
+2024.08.06 07:48:25 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 07:48:34 INFO  time: compiled scala_basics in 9.64s
+2024.08.06 07:48:34 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 07:48:40 INFO  time: compiled scala_basics in 5.31s
+2024.08.06 07:57:45 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 07:57:50 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 07:57:50 WARN  failed to generate semanticdb for E:\Scala\scala_basics\src\main\scala\Practicle 07\q3.scala:
+E:\Scala\scala_basics\src\main\scala\Practicle 07\q3.scala:9: error: illegal start of simple expression
+    }
+    ^
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2092)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2061)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2058)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:1924)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1552)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:370)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1480)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1381)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$condExprWithBody$10(ScalametaParser.scala:1466)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.condExprWithBody(ScalametaParser.scala:1466)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$ifClause$1(ScalametaParser.scala:1417)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:372)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:377)
+	at scala.meta.internal.parsers.ScalametaParser.ifClause(ScalametaParser.scala:1415)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1483)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:370)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1480)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$3(ScalametaParser.scala:4234)
+	at scala.meta.internal.parsers.ScalametaParser.stat(ScalametaParser.scala:4091)
+	at scala.meta.internal.parsers.ScalametaParser.iter$7(ScalametaParser.scala:4234)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1(ScalametaParser.scala:4247)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1$adapted(ScalametaParser.scala:4197)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:562)
+	at scala.meta.internal.parsers.ScalametaParser.blockStatSeq(ScalametaParser.scala:4197)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockOnBrace$2(ScalametaParser.scala:2385)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOnOpen(ScalametaParser.scala:265)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockOnBrace$1(ScalametaParser.scala:2383)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:325)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:369)
+	at scala.meta.internal.parsers.ScalametaParser.blockOnBrace(ScalametaParser.scala:2383)
+	at scala.meta.internal.parsers.ScalametaParser.blockOnBrace(ScalametaParser.scala:2385)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockExprOnBrace$1(ScalametaParser.scala:2388)
+	at scala.meta.internal.parsers.ScalametaParser.blockExprPartial(ScalametaParser.scala:2367)
+	at scala.meta.internal.parsers.ScalametaParser.blockExprOnBrace(ScalametaParser.scala:2387)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2079)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2061)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2058)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:1924)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1552)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:370)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1480)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1381)
+	at scala.meta.internal.parsers.ScalametaParser.termFunctionBody(ScalametaParser.scala:1647)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$exprOtherRest$7(ScalametaParser.scala:1635)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.parsers.ScalametaParser.exprOtherRest(ScalametaParser.scala:1632)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1553)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:370)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1480)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1381)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:3358)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:372)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:377)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:3346)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3315)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3299)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4150)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4147)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4107)
+	at scala.meta.internal.parsers.ScalametaParser.getStats$2(ScalametaParser.scala:4137)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$templateStatSeq$3(ScalametaParser.scala:4138)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$templateStatSeq$3$adapted(ScalametaParser.scala:4136)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:562)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$templateStatSeq(ScalametaParser.scala:4136)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$templateStatSeq(ScalametaParser.scala:4128)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4006)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOr(ScalametaParser.scala:260)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:256)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4006)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4009)
+	at scala.meta.internal.parsers.ScalametaParser.templateAfterExtends(ScalametaParser.scala:3960)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:3976)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:325)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:369)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:3965)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4000)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:325)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:369)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:3993)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:3722)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:372)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:377)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:3714)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3601)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3589)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4121)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4115)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4107)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$statSeq$1(ScalametaParser.scala:4096)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$statSeq$1$adapted(ScalametaParser.scala:4096)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:562)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4096)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4285)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4288)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:325)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:369)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4264)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4291)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:119)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:116)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:58)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:116)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:30)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:37)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:22)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:15)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:161)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:43)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.saveSemanticdbForCompilationUnit(SemanticdbPipeline.scala:58)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.apply(SemanticdbPipeline.scala:62)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:480)
+	at scala.tools.nsc.Global$GlobalPhase.run(Global.scala:427)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.run(SemanticdbPipeline.scala:70)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1546)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1530)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1522)
+	at scala.tools.nsc.Global$Run.compileFiles(Global.scala:1635)
+	at scala.tools.xsbt.CachedCompiler0.run(CompilerBridge.scala:176)
+	at scala.tools.xsbt.CachedCompiler0.run(CompilerBridge.scala:139)
+	at scala.tools.xsbt.CompilerBridge.run(CompilerBridge.scala:43)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:133)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.NoopTracer$.trace(BraveTracer.scala:53)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskExecuteOn$AsyncRegister$$anon$1.run(TaskExecuteOn.scala:71)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+2024.08.06 07:57:50 INFO  time: compiled scala_basics in 0.28s
+2024.08.06 07:57:52 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 07:57:52 INFO  time: compiled scala_basics in 0.34s
+2024.08.06 07:58:01 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 07:58:01 INFO  time: compiled scala_basics in 0.25s
+2024.08.06 07:58:08 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 07:58:08 INFO  time: compiled scala_basics in 0.9s
+2024.08.06 07:58:11 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 07:58:12 INFO  time: compiled scala_basics in 1.42s
+2024.08.06 07:58:16 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 07:58:18 INFO  time: compiled scala_basics in 1.26s
+2024.08.06 07:58:35 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 07:58:35 INFO  time: compiled scala_basics in 0.24s
+2024.08.06 07:58:44 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 07:58:44 INFO  time: compiled scala_basics in 0.73s
+Aug 06, 2024 7:58:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 501
+2024.08.06 07:58:49 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 07:58:49 INFO  time: compiled scala_basics in 0.36s
+2024.08.06 07:58:53 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 07:58:53 INFO  time: compiled scala_basics in 0.56s
+2024.08.06 07:58:59 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 07:58:59 INFO  time: compiled scala_basics in 0.5s
+2024.08.06 08:03:01 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 08:03:04 INFO  time: compiled scala_basics in 3.51s
+2024.08.06 08:03:26 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 08:03:29 INFO  time: compiled scala_basics in 3.33s
+Aug 06, 2024 8:05:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.08.06 08:05:51 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 08:05:54 INFO  time: compiled scala_basics in 3.39s
+Aug 06, 2024 8:07:05 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.08.06 08:07:06 INFO  compiling scala_basics (28 scala sources)
+Aug 06, 2024 8:07:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Scala\scala_basics\.metals\.reports\metals-full\2024-08-06\r_compiler-error_(scala_basics)_08-07-06-669.md
+2024.08.06 08:07:07 INFO  Shutting down server
+2024.08.06 08:07:07 INFO  shutting down Metals
+2024.08.06 08:07:07 INFO  Shut down connection with build server.
+2024.08.06 08:07:07 INFO  Shut down connection with build server.
+Aug 06, 2024 8:07:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:191)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:160)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.$anonfun$cancel$1(FutureWithTimeout.scala:37)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.cancel(FutureWithTimeout.scala:37)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.utils.RequestRegistry.cancel(RequestRegistry.scala:94)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:450)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:182)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:174)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:215)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:527)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2024.08.06 08:07:07 INFO  Cancelling compilation on Bloop server
+2024.08.06 08:07:08 INFO  Exiting server
+2024.08.06 10:13:15 INFO  Started: Metals version 1.3.5 in folders 'E:\Scala\scala_basics' for client Visual Studio Code 1.88.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@748007a]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@5105d47c]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@748007a]
+2024.08.06 10:13:19 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.06 10:13:22 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 07\q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.06 10:13:22 INFO  Attempting to connect to the build server...
+2024.08.06 10:13:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.06 10:13:34 INFO  Attempting to connect to the build server...
+2024.08.06 10:13:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.06 10:13:34 INFO  time: Connected to build server in 11s
+2024.08.06 10:13:34 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.06 10:13:35 INFO  time: Imported build in 0.35s
+2024.08.06 10:13:35 INFO  running doctor check
+2024.08.06 10:13:35 INFO  java targets: scala_basics-build, scala_basics, scala_basics-test
+2024.08.06 10:13:42 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.06 10:13:51 INFO  time: indexed workspace in 16s
+2024.08.06 10:13:52 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 10:14:02 INFO  time: compiled scala_basics in 9.97s
+2024.08.06 10:14:02 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 10:14:06 INFO  time: compiled scala_basics in 4.04s
+Aug 06, 2024 10:20:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 93
+2024.08.06 10:21:26 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 10:21:29 INFO  time: compiled scala_basics in 3.92s
+Aug 06, 2024 10:22:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 222
+2024.08.06 10:23:20 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 10:23:20 INFO  time: compiled scala_basics in 0.98s
+Aug 06, 2024 10:23:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 436
+2024.08.06 10:23:30 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 10:23:30 INFO  time: compiled scala_basics in 0.89s
+2024.08.06 10:23:42 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 10:23:42 INFO  time: compiled scala_basics in 0.81s
+2024.08.06 10:24:15 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 10:24:15 INFO  time: compiled scala_basics in 0.32s
+2024.08.06 10:24:32 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 10:24:32 INFO  time: compiled scala_basics in 0.71s
+2024.08.06 10:24:47 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 10:24:51 INFO  time: compiled scala_basics in 3.29s
+2024.08.06 10:30:55 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 10:30:58 INFO  time: compiled scala_basics in 3.49s
+2024.08.06 10:31:32 INFO  compiling scala_basics (28 scala sources)
+2024.08.06 10:31:35 INFO  time: compiled scala_basics in 3.51s
+2024.08.06 10:32:09 INFO  Shutting down server
+2024.08.06 10:32:09 INFO  shutting down Metals
+2024.08.06 10:32:09 INFO  Shut down connection with build server.
+2024.08.06 10:32:09 INFO  Shut down connection with build server.
+2024.08.06 10:32:10 INFO  Exiting server
+2024.08.12 10:50:55 INFO  Started: Metals version 1.3.5 in folders 'E:\Scala\scala_basics' for client Visual Studio Code 1.88.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@2d4312c7]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@7c7536e7]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@2d4312c7]
+2024.08.12 10:50:58 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.12 10:51:01 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 07\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.12 10:51:01 INFO  Attempting to connect to the build server...
+2024.08.12 10:51:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.12 10:51:18 INFO  Attempting to connect to the build server...
+2024.08.12 10:51:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.12 10:51:18 INFO  time: Connected to build server in 17s
+2024.08.12 10:51:18 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.12 10:51:19 INFO  time: Imported build in 0.49s
+2024.08.12 10:51:19 INFO  running doctor check
+2024.08.12 10:51:19 INFO  java targets: scala_basics-build, scala_basics, scala_basics-test
+2024.08.12 10:51:28 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.12 10:51:40 INFO  time: indexed workspace in 20s
+2024.08.12 10:56:57 INFO  compiling scala_basics (28 scala sources)
+2024.08.12 10:57:07 INFO  time: compiled scala_basics in 10s
+2024.08.12 10:57:39 INFO  compiling scala_basics (28 scala sources)
+2024.08.12 10:57:45 INFO  time: compiled scala_basics in 5.1s
+2024.08.12 10:58:50 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 10:58:55 INFO  time: compiled scala_basics in 4.26s
+2024.08.12 10:59:03 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 10:59:07 INFO  time: compiled scala_basics in 3.57s
+2024.08.12 10:59:19 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 10:59:22 INFO  time: compiled scala_basics in 3.25s
+Aug 12, 2024 10:59:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 201
+2024.08.12 11:00:04 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:00:05 INFO  time: compiled scala_basics in 1.17s
+Aug 12, 2024 11:00:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 275
+Aug 12, 2024 11:00:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 276
+Aug 12, 2024 11:00:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 277
+2024.08.12 11:00:21 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:00:21 INFO  time: compiled scala_basics in 0.31s
+2024.08.12 11:01:32 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:01:32 INFO  time: compiled scala_basics in 0.68s
+2024.08.12 11:07:53 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:07:53 INFO  time: compiled scala_basics in 0.65s
+2024.08.12 11:08:02 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:08:02 INFO  time: compiled scala_basics in 0.19s
+2024.08.12 11:08:08 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:08:08 INFO  time: compiled scala_basics in 0.56s
+2024.08.12 11:08:12 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:08:12 INFO  time: compiled scala_basics in 0.79s
+2024.08.12 11:08:19 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:08:19 INFO  time: compiled scala_basics in 0.51s
+2024.08.12 11:08:35 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:08:35 INFO  time: compiled scala_basics in 0.47s
+2024.08.12 11:12:19 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:12:19 INFO  time: compiled scala_basics in 0.72s
+2024.08.12 11:12:22 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:12:22 INFO  time: compiled scala_basics in 0.72s
+2024.08.12 11:12:59 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:12:59 INFO  time: compiled scala_basics in 0.3s
+2024.08.12 11:13:02 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:13:02 INFO  time: compiled scala_basics in 0.63s
+2024.08.12 11:19:26 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:19:26 INFO  time: compiled scala_basics in 0.55s
+Aug 12, 2024 11:20:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 998
+2024.08.12 11:20:49 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:20:49 INFO  time: compiled scala_basics in 0.55s
+Aug 12, 2024 11:22:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1147
+Aug 12, 2024 11:22:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1153
+2024.08.12 11:22:47 INFO  compiling scala_basics (29 scala sources)
+Aug 12, 2024 11:22:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1155
+2024.08.12 11:22:47 INFO  time: compiled scala_basics in 0.58s
+2024.08.12 11:22:50 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:22:50 INFO  time: compiled scala_basics in 0.46s
+2024.08.12 11:23:16 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:23:16 INFO  time: compiled scala_basics in 0.42s
+Aug 12, 2024 11:23:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1349
+2024.08.12 11:26:09 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:26:09 INFO  time: compiled scala_basics in 0.48s
+2024.08.12 11:26:27 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:26:27 INFO  time: compiled scala_basics in 0.17s
+2024.08.12 11:26:30 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:26:30 INFO  time: compiled scala_basics in 0.4s
+2024.08.12 11:26:35 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:26:35 INFO  time: compiled scala_basics in 0.4s
+something's wrong: no file:///E:/Scala/scala_basics/src/main/scala/Practicle%2008/CaesarCipher.scala in Array[<error>]RangePosition(file:///E:/Scala/scala_basics/src/main/scala/Practicle%2008/CaesarCipher.scala, 121, 121, 136)
+something's wrong: no file:///E:/Scala/scala_basics/src/main/scala/Practicle%2008/CaesarCipher.scala in Array[<error>]RangePosition(file:///E:/Scala/scala_basics/src/main/scala/Practicle%2008/CaesarCipher.scala, 121, 121, 129)
+something's wrong: no file:///E:/Scala/scala_basics/src/main/scala/Practicle%2008/CaesarCipher.scala in Array[<error>]RangePosition(file:///E:/Scala/scala_basics/src/main/scala/Practicle%2008/CaesarCipher.scala, 121, 121, 130)
+2024.08.12 11:27:01 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:27:01 INFO  time: compiled scala_basics in 0.39s
+2024.08.12 11:27:54 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:27:54 INFO  time: compiled scala_basics in 0.19s
+2024.08.12 11:29:10 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:29:10 INFO  time: compiled scala_basics in 0.26s
+2024.08.12 11:29:18 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:29:18 INFO  time: compiled scala_basics in 0.42s
+2024.08.12 11:29:22 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:29:22 INFO  time: compiled scala_basics in 0.37s
+2024.08.12 11:29:34 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:29:38 INFO  time: compiled scala_basics in 3.47s
+2024.08.12 11:30:15 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:30:15 INFO  time: compiled scala_basics in 0.51s
+2024.08.12 11:30:52 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:30:52 INFO  time: compiled scala_basics in 0.16s
+2024.08.12 11:31:02 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:31:02 INFO  time: compiled scala_basics in 0.4s
+Aug 12, 2024 11:31:07 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 12, 2024 11:31:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Scala\scala_basics\.metals\.reports\metals-full\2024-08-12\r_compiler-error_(scala_basics)_11-31-08-205.md
+2024.08.12 11:31:46 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:31:49 INFO  time: compiled scala_basics in 2.97s
+2024.08.12 11:33:12 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 11:33:15 INFO  time: compiled scala_basics in 3.07s
+2024.08.12 12:06:04 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 12:06:07 INFO  time: compiled scala_basics in 2.74s

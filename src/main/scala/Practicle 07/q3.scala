@@ -6,7 +6,14 @@ object q73 extends App{
     
     val isPrime = (num: Int) => {
         if(num <= 1)false
-        else !(2 until num).exists(i => num % i == 0)
+        else{
+            var prime = true 
+            for (i <- 2 to num-1){
+            if(num%i == 0) prime = false
+            }
+            prime
+        }
+        
     }
 
     val filterPrime = (numSet: List[Int]) => {
