@@ -20979,3 +20979,486 @@ SEVERE: A severe compiler error occurred, full details of the error can be found
 2024.08.12 11:33:15 INFO  time: compiled scala_basics in 3.07s
 2024.08.12 12:06:04 INFO  compiling scala_basics (29 scala sources)
 2024.08.12 12:06:07 INFO  time: compiled scala_basics in 2.74s
+2024.08.12 13:54:47 INFO  Started: Metals version 1.3.5 in folders 'E:\Scala\scala_basics' for client Visual Studio Code 1.88.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@564368d6]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@5000c9e5]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@564368d6]
+2024.08.12 13:54:53 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.12 13:54:56 INFO  no build target found for E:\Scala\scala_basics\src\main\scala\Practicle 08\CaesarCipher.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.12 13:54:56 INFO  Attempting to connect to the build server...
+2024.08.12 13:55:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.12 13:55:10 INFO  Attempting to connect to the build server...
+2024.08.12 13:55:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\scala_basics\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.12 13:55:10 INFO  time: Connected to build server in 14s
+2024.08.12 13:55:10 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.12 13:55:11 INFO  time: Imported build in 0.36s
+2024.08.12 13:55:12 INFO  running doctor check
+2024.08.12 13:55:12 INFO  java targets: scala_basics-build, scala_basics, scala_basics-test
+2024.08.12 13:55:23 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.12 13:55:42 INFO  time: indexed workspace in 30s
+2024.08.12 13:55:59 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 13:56:11 INFO  time: compiled scala_basics in 11s
+2024.08.12 13:56:11 INFO  compiling scala_basics (29 scala sources)
+Aug 12, 2024 1:56:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 65
+Aug 12, 2024 1:56:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+2024.08.12 13:56:18 INFO  time: compiled scala_basics in 5.93s
+2024.08.12 13:56:20 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 13:56:25 INFO  time: compiled scala_basics in 4.62s
+2024.08.12 13:56:47 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 13:56:50 INFO  time: compiled scala_basics in 3.44s
+2024.08.12 13:57:04 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 13:57:08 INFO  time: compiled scala_basics in 3.89s
+2024.08.12 13:57:14 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 13:57:19 INFO  time: compiled scala_basics in 5.46s
+2024.08.12 13:58:37 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 13:58:40 INFO  time: compiled scala_basics in 3.27s
+2024.08.12 13:58:59 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 13:59:02 INFO  time: compiled scala_basics in 3.19s
+2024.08.12 13:59:20 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 13:59:23 INFO  time: compiled scala_basics in 2.94s
+2024.08.12 13:59:48 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 13:59:51 INFO  time: compiled scala_basics in 3.43s
+Aug 12, 2024 2:00:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 476
+2024.08.12 14:00:02 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:00:05 INFO  time: compiled scala_basics in 2.89s
+Aug 12, 2024 2:00:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 547
+2024.08.12 14:00:24 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:00:26 INFO  time: compiled scala_basics in 2.81s
+2024.08.12 14:00:50 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:00:54 INFO  time: compiled scala_basics in 3.21s
+2024.08.12 14:01:06 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:01:09 INFO  time: compiled scala_basics in 2.83s
+2024.08.12 14:02:23 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:02:26 INFO  time: compiled scala_basics in 2.94s
+2024.08.12 14:05:31 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:05:34 INFO  time: compiled scala_basics in 3.17s
+2024.08.12 14:09:17 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:09:17 INFO  time: compiled scala_basics in 0.3s
+2024.08.12 14:09:23 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:09:25 INFO  time: compiled scala_basics in 2.71s
+2024.08.12 14:09:56 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:09:59 INFO  time: compiled scala_basics in 3.08s
+2024.08.12 14:12:19 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:12:22 INFO  time: compiled scala_basics in 3.12s
+2024.08.12 14:12:35 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:12:38 INFO  time: compiled scala_basics in 3.24s
+2024.08.12 14:13:55 WARN  Using indexes to guess the definition of c
+2024.08.12 14:14:23 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:14:23 INFO  time: compiled scala_basics in 0.59s
+2024.08.12 14:14:29 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:14:29 INFO  time: compiled scala_basics in 0.49s
+2024.08.12 14:14:35 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:14:35 INFO  time: compiled scala_basics in 0.45s
+2024.08.12 14:14:41 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:14:45 INFO  time: compiled scala_basics in 3.33s
+2024.08.12 14:15:17 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:15:20 INFO  time: compiled scala_basics in 2.89s
+2024.08.12 14:15:42 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:15:44 INFO  time: compiled scala_basics in 2.58s
+2024.08.12 14:15:50 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:15:53 INFO  time: compiled scala_basics in 2.54s
+2024.08.12 14:17:55 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:17:55 INFO  time: compiled scala_basics in 0.42s
+2024.08.12 14:17:58 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:18:01 INFO  time: compiled scala_basics in 2.76s
+2024.08.12 14:18:01 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:18:02 INFO  time: compiled scala_basics in 1.28s
+2024.08.12 14:21:02 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:21:04 INFO  time: compiled scala_basics in 2.6s
+Aug 12, 2024 2:21:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1271
+2024.08.12 14:23:09 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:23:12 INFO  time: compiled scala_basics in 2.89s
+2024.08.12 14:27:56 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:27:58 INFO  time: compiled scala_basics in 2.46s
+2024.08.12 14:27:59 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:28:02 INFO  time: compiled scala_basics in 2.37s
+2024.08.12 14:28:26 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:28:29 INFO  time: compiled scala_basics in 2.44s
+2024.08.12 14:28:41 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:28:44 INFO  time: compiled scala_basics in 2.26s
+2024.08.12 14:29:58 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:30:01 INFO  time: compiled scala_basics in 3.01s
+Aug 12, 2024 2:41:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1528
+Aug 12, 2024 2:41:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1529
+Aug 12, 2024 2:41:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1527
+Aug 12, 2024 2:41:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1530
+Aug 12, 2024 2:41:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1531
+Aug 12, 2024 2:41:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1533
+2024.08.12 14:41:43 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:41:45 INFO  time: compiled scala_basics in 2.33s
+2024.08.12 14:41:45 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:41:46 INFO  time: compiled scala_basics in 1.19s
+2024.08.12 14:42:39 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:42:39 INFO  time: compiled scala_basics in 0.41s
+2024.08.12 14:42:51 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:42:53 INFO  time: compiled scala_basics in 2.52s
+2024.08.12 14:44:36 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:44:39 INFO  time: compiled scala_basics in 2.8s
+2024.08.12 14:46:06 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:46:08 INFO  time: compiled scala_basics in 2.3s
+2024.08.12 14:46:10 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:46:10 INFO  time: compiled scala_basics in 0.35s
+2024.08.12 14:46:18 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:46:20 INFO  time: compiled scala_basics in 2.46s
+Aug 12, 2024 2:49:07 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 362, count -1, length 772
+2024.08.12 14:49:08 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:49:08 INFO  time: compiled scala_basics in 0.35s
+2024.08.12 14:49:12 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:49:14 INFO  time: compiled scala_basics in 2.78s
+2024.08.12 14:55:20 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 14:55:23 INFO  time: compiled scala_basics in 2.49s
+2024.08.12 17:02:44 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:02:47 INFO  time: compiled scala_basics in 3.23s
+2024.08.12 17:02:56 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:02:59 INFO  time: compiled scala_basics in 3.19s
+2024.08.12 17:03:36 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:03:39 INFO  time: compiled scala_basics in 2.85s
+2024.08.12 17:05:16 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:05:18 INFO  time: compiled scala_basics in 2.03s
+Aug 12, 2024 5:07:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2385
+2024.08.12 17:14:38 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:14:38 INFO  time: compiled scala_basics in 0.27s
+2024.08.12 17:37:26 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:37:27 INFO  time: compiled scala_basics in 1.02s
+Aug 12, 2024 5:42:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2699
+2024.08.12 17:42:24 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:42:24 INFO  time: compiled scala_basics in 0.24s
+Aug 12, 2024 5:42:53 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 378, count -1, length 905
+Aug 12, 2024 5:42:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2769
+2024.08.12 17:43:03 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:43:03 INFO  time: compiled scala_basics in 0.76s
+Aug 12, 2024 5:43:08 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 12, 2024 5:43:09 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 12, 2024 5:43:09 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.08.12 17:43:41 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:43:41 INFO  time: compiled scala_basics in 0.35s
+2024.08.12 17:44:01 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:44:04 INFO  time: compiled scala_basics in 3.36s
+2024.08.12 17:45:29 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:45:32 INFO  time: compiled scala_basics in 3.28s
+2024.08.12 17:46:21 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:46:24 INFO  time: compiled scala_basics in 3.06s
+2024.08.12 17:50:17 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:50:17 INFO  time: compiled scala_basics in 0.56s
+2024.08.12 17:50:45 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:50:47 INFO  time: compiled scala_basics in 2.59s
+Aug 12, 2024 5:51:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3376
+2024.08.12 17:51:11 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:51:14 INFO  time: compiled scala_basics in 2.5s
+2024.08.12 17:51:38 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:51:40 INFO  time: compiled scala_basics in 2.5s
+Aug 12, 2024 5:51:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3474
+2024.08.12 17:52:02 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:52:05 INFO  time: compiled scala_basics in 2.97s
+2024.08.12 17:52:25 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:52:28 INFO  time: compiled scala_basics in 2.35s
+2024.08.12 17:52:58 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:53:01 INFO  time: compiled scala_basics in 2.56s
+2024.08.12 17:53:40 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:53:43 INFO  time: compiled scala_basics in 2.57s
+Aug 12, 2024 5:54:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3705
+2024.08.12 17:54:26 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 17:54:29 INFO  time: compiled scala_basics in 2.82s
+Aug 12, 2024 6:06:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4052
+2024.08.12 18:08:39 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:08:41 INFO  time: compiled scala_basics in 2.26s
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.12/scalap-2.13.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.12/scalap-2.13.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.12/scalap-2.13.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.12/scalap-2.13.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.jar
+2024.08.12 18:20:39 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:20:39 INFO  time: compiled scala_basics in 0.38s
+2024.08.12 18:20:48 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:20:51 INFO  time: compiled scala_basics in 2.62s
+2024.08.12 18:21:01 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:21:04 INFO  time: compiled scala_basics in 2.39s
+Aug 12, 2024 6:21:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4603
+2024.08.12 18:23:04 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:23:04 INFO  time: compiled scala_basics in 0.41s
+2024.08.12 18:23:18 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:23:18 INFO  time: compiled scala_basics in 0.34s
+2024.08.12 18:23:30 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:23:33 INFO  time: compiled scala_basics in 3s
+2024.08.12 18:23:55 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:23:58 INFO  time: compiled scala_basics in 2.51s
+2024.08.12 18:24:21 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:24:24 INFO  time: compiled scala_basics in 2.6s
+2024.08.12 18:24:29 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:24:33 INFO  time: compiled scala_basics in 3.99s
+2024.08.12 18:24:56 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:24:59 INFO  time: compiled scala_basics in 2.99s
+2024.08.12 18:25:14 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:25:17 INFO  time: compiled scala_basics in 2.52s
+2024.08.12 18:25:38 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:25:41 INFO  time: compiled scala_basics in 2.7s
+2024.08.12 18:25:54 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:25:57 INFO  time: compiled scala_basics in 2.77s
+2024.08.12 18:26:14 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:26:17 INFO  time: compiled scala_basics in 2.96s
+2024.08.12 18:26:17 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:26:19 INFO  time: compiled scala_basics in 1.47s
+2024.08.12 18:27:51 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:27:51 INFO  time: compiled scala_basics in 0.21s
+2024.08.12 18:27:56 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:27:56 INFO  time: compiled scala_basics in 0.19s
+2024.08.12 18:28:02 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:28:02 INFO  time: compiled scala_basics in 0.19s
+2024.08.12 18:28:05 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:28:07 INFO  time: compiled scala_basics in 2.6s
+2024.08.12 18:28:07 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:28:09 INFO  time: compiled scala_basics in 1.29s
+2024.08.12 18:28:09 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:28:10 INFO  time: compiled scala_basics in 0.99s
+2024.08.12 18:29:13 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:29:13 INFO  time: compiled scala_basics in 0.2s
+Aug 12, 2024 6:29:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5337
+2024.08.12 18:29:55 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:29:58 INFO  time: compiled scala_basics in 2.68s
+2024.08.12 18:30:03 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:30:05 INFO  time: compiled scala_basics in 2.45s
+2024.08.12 18:30:09 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:30:11 INFO  time: compiled scala_basics in 2.11s
+Aug 12, 2024 6:30:37 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 618, count -1, length 928
+Aug 12, 2024 6:30:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5521
+2024.08.12 18:35:01 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:35:01 INFO  time: compiled scala_basics in 0.21s
+Aug 12, 2024 6:35:16 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 254, count -1, length 933
+2024.08.12 18:35:52 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:35:55 INFO  time: compiled scala_basics in 2.85s
+2024.08.12 18:36:28 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:36:30 INFO  time: compiled scala_basics in 2.57s
+2024.08.12 18:36:31 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:36:34 INFO  time: compiled scala_basics in 2.59s
+2024.08.12 18:36:35 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:36:38 INFO  time: compiled scala_basics in 2.64s
+2024.08.12 18:36:38 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:36:39 INFO  time: compiled scala_basics in 1.34s
+2024.08.12 18:36:59 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:37:01 INFO  time: compiled scala_basics in 2.35s
+2024.08.12 18:37:51 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:37:53 INFO  time: compiled scala_basics in 2.23s
+2024.08.12 18:37:53 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:37:54 INFO  time: compiled scala_basics in 1.12s
+2024.08.12 18:38:33 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:38:36 INFO  time: compiled scala_basics in 2.6s
+Aug 12, 2024 6:39:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6424
+Aug 12, 2024 6:39:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6735
+2024.08.12 18:40:37 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:40:37 INFO  time: compiled scala_basics in 0.35s
+2024.08.12 18:40:52 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:40:54 INFO  time: compiled scala_basics in 2.44s
+Aug 12, 2024 6:43:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7262
+2024.08.12 18:43:46 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:43:46 INFO  time: compiled scala_basics in 0.48s
+Aug 12, 2024 6:44:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7412
+2024.08.12 18:44:26 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:44:26 INFO  time: compiled scala_basics in 0.5s
+2024.08.12 18:44:45 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:44:45 INFO  time: compiled scala_basics in 0.25s
+2024.08.12 18:44:49 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:44:49 INFO  time: compiled scala_basics in 0.2s
+something's wrong: no file:///E:/Scala/scala_basics/src/main/scala/Practicle%2008/CaesarCipher.scala in (String, <error>)RangePosition(file:///E:/Scala/scala_basics/src/main/scala/Practicle%2008/CaesarCipher.scala, 161, 161, 179)
+2024.08.12 18:44:58 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:44:58 INFO  time: compiled scala_basics in 0.23s
+2024.08.12 18:45:03 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:45:03 INFO  time: compiled scala_basics in 0.38s
+2024.08.12 18:45:18 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:45:18 INFO  time: compiled scala_basics in 0.34s
+2024.08.12 18:45:29 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:45:29 INFO  time: compiled scala_basics in 0.33s
+2024.08.12 18:46:09 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:46:11 INFO  time: compiled scala_basics in 2.69s
+Aug 12, 2024 6:46:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7913
+2024.08.12 18:46:27 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:46:29 INFO  time: compiled scala_basics in 2.58s
+2024.08.12 18:46:39 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:46:42 INFO  time: compiled scala_basics in 2.94s
+2024.08.12 18:47:30 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:47:33 INFO  time: compiled scala_basics in 2.58s
+2024.08.12 18:48:30 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:48:32 INFO  time: compiled scala_basics in 2.51s
+2024.08.12 18:49:54 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:49:54 INFO  time: compiled scala_basics in 0.42s
+2024.08.12 18:50:00 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:50:00 INFO  time: compiled scala_basics in 0.34s
+Aug 12, 2024 6:50:10 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 12, 2024 6:50:11 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 12, 2024 6:50:27 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.08.12 18:50:34 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:50:34 INFO  time: compiled scala_basics in 0.36s
+Aug 12, 2024 6:50:36 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.08.12 18:50:38 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:50:41 INFO  time: compiled scala_basics in 3.06s
+2024.08.12 18:51:20 INFO  compiling scala_basics (29 scala sources)
+2024.08.12 18:51:22 INFO  time: compiled scala_basics in 2.33s
+2024.08.12 19:00:39 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:00:42 INFO  time: compiled scala_basics in 2.75s
+2024.08.12 19:01:12 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:01:12 INFO  time: compiled scala_basics in 0.3s
+2024.08.12 19:02:00 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:02:00 INFO  time: compiled scala_basics in 0.21s
+Aug 12, 2024 7:02:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8664
+Aug 12, 2024 7:02:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8707
+2024.08.12 19:03:03 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:03:05 INFO  time: compiled scala_basics in 2.76s
+2024.08.12 19:03:10 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:03:12 INFO  time: compiled scala_basics in 2.3s
+2024.08.12 19:03:23 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:03:26 INFO  time: compiled scala_basics in 2.51s
+2024.08.12 19:03:45 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:03:48 INFO  time: compiled scala_basics in 3.25s
+2024.08.12 19:08:37 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:08:37 INFO  time: compiled scala_basics in 0.43s
+2024.08.12 19:08:52 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:08:54 INFO  time: compiled scala_basics in 2.8s
+2024.08.12 19:09:07 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:09:09 INFO  time: compiled scala_basics in 2.45s
+Aug 12, 2024 7:09:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9225
+2024.08.12 19:09:30 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:09:30 INFO  time: compiled scala_basics in 0.25s
+2024.08.12 19:09:57 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:10:00 INFO  time: compiled scala_basics in 2.72s
+Aug 12, 2024 7:10:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9358
+2024.08.12 19:10:07 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:10:09 INFO  time: compiled scala_basics in 2.39s
+Aug 12, 2024 7:10:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Scala\scala_basics\.metals\.reports\metals-full\2024-08-12\r_compiler-error_(scala_basics)_19-10-20-245.md
+2024.08.12 19:10:20 WARN  Could not find semantic tokens for: file:///E:/Scala/scala_basics/src/main/scala/Practicle%2008/q2.scala
+2024.08.12 19:10:52 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:10:52 INFO  time: compiled scala_basics in 0.45s
+2024.08.12 19:11:15 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:11:15 INFO  time: compiled scala_basics in 0.2s
+2024.08.12 19:11:26 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:11:26 INFO  time: compiled scala_basics in 0.57s
+2024.08.12 19:11:29 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:11:29 INFO  time: compiled scala_basics in 0.41s
+2024.08.12 19:11:38 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:11:38 INFO  time: compiled scala_basics in 0.36s
+2024.08.12 19:12:01 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:12:01 INFO  time: compiled scala_basics in 0.34s
+2024.08.12 19:12:37 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:12:40 INFO  time: compiled scala_basics in 2.54s
+2024.08.12 19:13:01 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:13:04 INFO  time: compiled scala_basics in 2.44s
+2024.08.12 19:13:19 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:13:22 INFO  time: compiled scala_basics in 2.94s
+2024.08.12 19:13:27 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:13:29 INFO  time: compiled scala_basics in 2.39s
+Aug 12, 2024 7:13:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10073
+Aug 12, 2024 7:13:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10074
+2024.08.12 19:14:22 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:14:25 INFO  time: compiled scala_basics in 3.02s
+2024.08.12 19:15:06 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:15:08 INFO  time: compiled scala_basics in 2.54s
+2024.08.12 19:15:50 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:15:50 INFO  time: compiled scala_basics in 0.74s
+2024.08.12 19:15:51 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:15:51 INFO  time: compiled scala_basics in 0.28s
+2024.08.12 19:16:13 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:16:19 INFO  time: compiled scala_basics in 5.22s
+2024.08.12 19:16:19 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:16:20 INFO  time: compiled scala_basics in 1.18s
+2024.08.12 19:16:38 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:16:41 INFO  time: compiled scala_basics in 2.23s
+2024.08.12 19:17:02 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:17:05 INFO  time: compiled scala_basics in 2.42s
+Aug 12, 2024 7:17:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11024
+2024.08.12 19:17:23 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:17:26 INFO  time: compiled scala_basics in 2.79s
+2024.08.12 19:18:01 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:18:03 INFO  time: compiled scala_basics in 2.51s
+2024.08.12 19:18:26 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:18:28 INFO  time: compiled scala_basics in 2.51s
+2024.08.12 19:19:26 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:19:29 INFO  time: compiled scala_basics in 2.86s
+2024.08.12 19:20:05 INFO  compiling scala_basics (30 scala sources)
+2024.08.12 19:20:08 INFO  time: compiled scala_basics in 2.95s
+Aug 12, 2024 7:21:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.08.12 19:21:49 INFO  Shutting down server
+2024.08.12 19:21:49 INFO  shutting down Metals
+2024.08.12 19:21:49 INFO  Shut down connection with build server.
+2024.08.12 19:21:49 INFO  Shut down connection with build server.
+2024.08.12 19:21:50 INFO  Exiting server

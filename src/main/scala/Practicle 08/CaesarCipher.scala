@@ -8,35 +8,26 @@ object CaesarCipher extends App {
   ): String = {
     operation(text, shift)
   }
+
   def encriptData(text: String, shift: Int): String = {
-    if (shift > 95 || shift < 0) {
-      println("Invalid Shift!")
-      text
-    } else {
-      var encryptedText = ""
-      for (c <- text) {
-        var n = ((c - 32 + shift) % 95 + 32).toChar
-        encryptedText  += n
-      }
-      encryptedText
+    text.map {
+      case c if c.isLower => ((c - 'a' + shift) % 26 + 'a').toChar
+      case c if c.isUpper => ((c - 'A' + shift) % 26 + 'A').toChar
+      case c              => c
     }
   }
-  def decryptData(encryptedText: String, shift: Int): String = {
-    if (shift > 95 || shift < 0) {
-      println("Invalid Shift!")
-      encryptedText
-    } else {
-      var text = ""
-      for (c <- encryptedText) {
-        var n = ((c - 32 - shift + 95) % 95 + 32).toChar
-        text += n
-      }
-      text
+
+  def decryptData(text: String, shift: Int): String = {
+    val shift_n = shift % 26
+    text.map {
+      case c if c.isLower => ((c - 'a' - shift_n + 26) % 26 + 'a').toChar
+      case c if c.isUpper => ((c - 'A' - shift_n + 26) % 26 + 'A').toChar
+      case c              => c
     }
   }
 
   val text = "Hello Scala"
-  val shift = 10
+  val shift = 1000
   val encryptedText = cipher(text, shift, encriptData)
   println(s"Text to be Encrypt: $text")
   println(s"After Encrypting  : $encryptedText")
