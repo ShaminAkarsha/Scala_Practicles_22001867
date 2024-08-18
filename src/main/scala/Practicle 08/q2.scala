@@ -12,6 +12,8 @@ object q82 extends App {
       case _                    => println("Not a Multiple of Three or Five")
     }
   var continue = true
+
+  // Main
   while (continue) {
     printf("Input an Intiger: ")
     val num = readInt()
